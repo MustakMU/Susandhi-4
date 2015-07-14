@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.7.3 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Global_variableInitialization_DMA.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Global_variableInitialization_DMA -TC:\CooCox\CoIDE\configuration\ProgramData\Global_variableInitialization_DMA/arm-gcc-link.ld -g">
+      <target file="Global_variableInitialization_DMA.elf" lastModified="14dd84c6692">
+         <source file="..\obj\stm32l1xx_gpio.o" lastModified="14dd69f02c0"/>
+         <source file="..\obj\startup_stm32l1xx_md.o" lastModified="14dd6fc0a48"/>
+         <source file="..\obj\stm32l1xx_rcc.o" lastModified="14dd69f0538"/>
+         <source file="..\obj\system_stm32l1xx.o" lastModified="14dd69f05e7"/>
+         <source file="..\obj\main.o" lastModified="14dd84c5fc0"/>
+         <source file="..\obj\stm32l1xx_syscfg.o" lastModified="14dd69f089f"/>
+         <source file="..\obj\stm32l1xx_dma.o" lastModified="14dd69f09e1"/>
+         <source file="..\obj\misc.o" lastModified="14dd69f0af2"/>
+      </target>
+   </processor>
+</history>

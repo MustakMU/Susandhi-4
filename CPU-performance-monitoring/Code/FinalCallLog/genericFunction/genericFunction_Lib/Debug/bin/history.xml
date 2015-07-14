@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-ar">
+      <target file="libgenericFunction_Lib.a" lastModified="19e9f6a2abc">
+         <source file="..\obj\main.o" lastModified="19e9f6a25ee"/>
+         <source file="..\obj\syscalls.o" lastModified="19e9f6a2692"/>
+      </target>
+   </processor>
+</history>

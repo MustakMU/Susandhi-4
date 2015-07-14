@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/ID:\Chetan Akki\Complerte_DMA_Programs\workspace\uartDMA\cmsis_boot /ID:\Chetan Akki\Complerte_DMA_Programs\workspace\uartDMA\cmsis /ID:\Chetan Akki\Complerte_DMA_Programs\workspace\uartDMA\cmsis_lib /ID:\Chetan Akki\Complerte_DMA_Programs\workspace\uartDMA\cmsis_lib\Include /ID:\Chetan Akki\Complerte_DMA_Programs\workspace\uartDMA /ID:\Chetan Akki\Complerte_DMA_Programs\workspace">
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h" lastModified="14c5acde040">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_usart.c" lastModified="14c5acdff80">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="14c5acde810">
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_syscfg.c" lastModified="14c5acde040">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_rcc.c" lastModified="14c5acde040">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h" lastModified="14c5acde040">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\dmaInterrupt.c" lastModified="14c642dd6e0">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_dma.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32l1xx.h" lastModified="14c5acde040">
+      </source>
+      <source file="..\..\..\cmsis_boot\Startup\startup_stm32l1xx_md.c" lastModified="14c5acde040">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32l1xx.c" lastModified="14c5acde040">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\misc.c" lastModified="14c5acde040">
+         <include file="..\..\..\cmsis_lib\Include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_usart.h" lastModified="14c5acdff80">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32l1xx.h" lastModified="14c5acde810">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="14c5acde428">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="14c5acde810">
+      </source>
+      <source file="..\..\..\main.c" lastModified="14dd30642f6">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\Include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_syscfg.h" lastModified="14c5acde040">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\stm32l1xx_dma.h" lastModified="14c5acdf7b0">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_gpio.c" lastModified="14c5acde040">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\misc.h" lastModified="14c5acde040">
+         <include file="..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\stm32l1xx_dma.c" lastModified="14c9ce372b0">
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\Administrator\Desktop\workspace\uartDMA\cmsis /I..\..\..\..\..\Users\Administrator\Desktop\workspace\uartDMA /I..\..\..\..\..\Users\Administrator\Desktop\workspace\uartDMA\cmsis_lib\Include /I..\..\..\..\..\Users\Administrator\Desktop\workspace\uartDMA\cmsis_boot /I..\..\..\..\..\Users\Administrator\Desktop\workspace /I..\..\..\..\..\Users\Administrator\Desktop\workspace\uartDMA\cmsis_lib">
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="14c5acde07a">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+   </includePath>
+</dependencies>

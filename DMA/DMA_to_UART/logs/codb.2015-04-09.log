@@ -1,0 +1,38 @@
+12:00:07.778 [Worker-2] ERROR org.coocox.codb.common.log.ErrorLog - getExamplesOfCompByCompId API failed 
+Unexpected character ('?' (code 65279 / 0xfeff)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: java.io.StringReader@89aded; line: 1, column: 2]
+org.codehaus.jackson.JsonParser._constructError(JsonParser.java:1432)
+org.codehaus.jackson.impl.JsonParserMinimalBase._reportError(JsonParserMinimalBase.java:521)
+org.codehaus.jackson.impl.JsonParserMinimalBase._reportUnexpectedChar(JsonParserMinimalBase.java:442)
+org.codehaus.jackson.impl.ReaderBasedParser._handleUnexpectedValue(ReaderBasedParser.java:1198)
+org.codehaus.jackson.impl.ReaderBasedParser.nextToken(ReaderBasedParser.java:485)
+org.codehaus.jackson.map.ObjectMapper._initForReading(ObjectMapper.java:2770)
+org.codehaus.jackson.map.ObjectMapper._readMapAndClose(ObjectMapper.java:2718)
+org.codehaus.jackson.map.ObjectMapper.readValue(ObjectMapper.java:1863)
+org.coocox.codb.common.util.JSONUtils.toBean(JSONUtils.java:40)
+org.coocox.codb.client.core.api.impl.ExampleApiImpl.getExamplesOfCompByCompId(ExampleApiImpl.java:687)
+org.coocox.codb.client.core.api.impl.ExampleApiImpl.freshExamplesByCompId(ExampleApiImpl.java:232)
+org.coocox.example.core.impl.ExampleDBCmdHandler.freshExamplesByCompId(ExampleDBCmdHandler.java:51)
+org.coocox.integrate.component.views.ComponentView$4$1.run(ComponentView.java:346)
+org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+
+12:00:08.402 [Worker-7] ERROR org.coocox.codb.common.log.ErrorLog - getExamplesOfCompByCompId API failed 
+Unexpected character ('?' (code 65279 / 0xfeff)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: java.io.StringReader@19ffa36; line: 1, column: 2]
+org.codehaus.jackson.JsonParser._constructError(JsonParser.java:1432)
+org.codehaus.jackson.impl.JsonParserMinimalBase._reportError(JsonParserMinimalBase.java:521)
+org.codehaus.jackson.impl.JsonParserMinimalBase._reportUnexpectedChar(JsonParserMinimalBase.java:442)
+org.codehaus.jackson.impl.ReaderBasedParser._handleUnexpectedValue(ReaderBasedParser.java:1198)
+org.codehaus.jackson.impl.ReaderBasedParser.nextToken(ReaderBasedParser.java:485)
+org.codehaus.jackson.map.ObjectMapper._initForReading(ObjectMapper.java:2770)
+org.codehaus.jackson.map.ObjectMapper._readMapAndClose(ObjectMapper.java:2718)
+org.codehaus.jackson.map.ObjectMapper.readValue(ObjectMapper.java:1863)
+org.coocox.codb.common.util.JSONUtils.toBean(JSONUtils.java:40)
+org.coocox.codb.client.core.api.impl.ExampleApiImpl.getExamplesOfCompByCompId(ExampleApiImpl.java:687)
+org.coocox.codb.client.core.api.impl.ExampleApiImpl.freshExamplesByCompId(ExampleApiImpl.java:232)
+org.coocox.example.core.impl.ExampleDBCmdHandler.freshExamplesByCompId(ExampleDBCmdHandler.java:51)
+org.coocox.integrate.component.views.ComponentView$4$1.run(ComponentView.java:346)
+org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+

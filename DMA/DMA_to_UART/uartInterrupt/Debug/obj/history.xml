@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.2.1-sjlj mingw32 -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32L152C6 -DSTM32L1XX_MD -ID:\Chetan Akki\Complerte_DMA_Programs\workspace\uartDMA\cmsis_boot -ID:\Chetan Akki\Complerte_DMA_Programs\workspace\uartDMA\cmsis -ID:\Chetan Akki\Complerte_DMA_Programs\workspace\uartDMA\cmsis_lib -ID:\Chetan Akki\Complerte_DMA_Programs\workspace\uartDMA\cmsis_lib\Include -ID:\Chetan Akki\Complerte_DMA_Programs\workspace\uartDMA -ID:\Chetan Akki\Complerte_DMA_Programs\workspace">
+      <target file="stm32l1xx_rcc.o" lastModified="14dd665bfa4">
+         <source file="..\..\..\cmsis_lib\Source\stm32l1xx_rcc.c" lastModified="14c5acde040"/>
+      </target>
+      <target file="stm32l1xx_gpio.o" lastModified="14dd665bd3f">
+         <source file="..\..\..\cmsis_lib\Source\stm32l1xx_gpio.c" lastModified="14c5acde040"/>
+      </target>
+      <target file="dmaInterrupt.o" lastModified="14dd665c890">
+         <source file="..\..\..\dmaInterrupt.c" lastModified="14c642dd6e0"/>
+      </target>
+      <target file="stm32l1xx_dma.o" lastModified="14dd665c530">
+         <source file="..\..\..\cmsis_lib\Source\stm32l1xx_dma.c" lastModified="14c9ce372b0"/>
+      </target>
+      <target file="system_stm32l1xx.o" lastModified="14dd665c049">
+         <source file="..\..\..\cmsis_boot\system_stm32l1xx.c" lastModified="14c5acde040"/>
+      </target>
+      <target file="stm32l1xx_syscfg.o" lastModified="14dd665c2e4">
+         <source file="..\..\..\cmsis_lib\Source\stm32l1xx_syscfg.c" lastModified="14c5acde040"/>
+      </target>
+      <target file="main.o" lastModified="14dd665c21e">
+         <source file="..\..\..\main.c" lastModified="14dd30642f6"/>
+      </target>
+      <target file="startup_stm32l1xx_md.o" lastModified="14dd665bddb">
+         <source file="..\..\..\cmsis_boot\Startup\startup_stm32l1xx_md.c" lastModified="14c5acde040"/>
+      </target>
+      <target file="stm32l1xx_usart.o" lastModified="14dd665c64d">
+         <source file="..\..\..\cmsis_lib\Source\stm32l1xx_usart.c" lastModified="14c5acdff80"/>
+      </target>
+      <target file="misc.o" lastModified="14dd665c93c">
+         <source file="..\..\..\cmsis_lib\Source\misc.c" lastModified="14c5acde040"/>
+      </target>
+   </processor>
+</history>

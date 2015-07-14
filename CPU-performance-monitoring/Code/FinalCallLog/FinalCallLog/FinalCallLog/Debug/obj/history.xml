@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.2.1-sjlj mingw32 -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32L152RB -DSTM32L1XX_MD -D__mainLoopStart -D__mainLoopEnd -ID:\FinalCallLog\cmsis_lib\Include -ID:\ -ID:\FinalCallLog\genericFunction -ID:\FinalCallLog -ID:\FinalCallLog\cmsis_lib -ID:\FinalCallLog\cmsis_boot -ID:\FinalCallLog\cmsis">
+      <target file="gpio.o" lastModified="14ddd4ad6fb">
+         <source file="..\..\..\..\gpio.c" lastModified="14cb1924740"/>
+      </target>
+      <target file="assignValues.o" lastModified="14ddd4ad2ca">
+         <source file="..\..\..\..\assignValues.c" lastModified="14cb641cd60"/>
+      </target>
+      <target file="stm32l1xx_rcc.o" lastModified="14ddd354827">
+         <source file="..\..\..\..\cmsis_lib\Source\stm32l1xx_rcc.c" lastModified="14cb15741e0"/>
+      </target>
+      <target file="display.o" lastModified="14ddd4ad9e0">
+         <source file="..\..\..\..\display.c" lastModified="19e9f767890"/>
+      </target>
+      <target file="stm32l1xx_pwr.o" lastModified="14ddd353b84">
+         <source file="..\..\..\..\cmsis_lib\Source\stm32l1xx_pwr.c" lastModified="14d1d8ab669"/>
+      </target>
+      <target file="uartInit.o" lastModified="14ddd4aca40">
+         <source file="..\..\..\..\uartInit.c" lastModified="14d94367d34"/>
+      </target>
+      <target file="system_stm32l1xx.o" lastModified="14ddd354c2f">
+         <source file="..\..\..\..\cmsis_boot\system_stm32l1xx.c" lastModified="14cb1573240"/>
+      </target>
+      <target file="startup_stm32l1xx_md.o" lastModified="14ddd354064">
+         <source file="..\..\..\..\cmsis_boot\Startup\startup_stm32l1xx_md.c" lastModified="14dd6d4745b"/>
+      </target>
+      <target file="stm32l1xx_syscfg.o" lastModified="14ddd355ae6">
+         <source file="..\..\..\..\cmsis_lib\Source\stm32l1xx_syscfg.c" lastModified="14cb1575180"/>
+      </target>
+      <target file="misc.o" lastModified="14ddd3569aa">
+         <source file="..\..\..\..\cmsis_lib\Source\misc.c" lastModified="14cb15741e0"/>
+      </target>
+      <target file="stm32l1xx_usart.o" lastModified="14ddd356423">
+         <source file="..\..\..\..\cmsis_lib\Source\stm32l1xx_usart.c" lastModified="14cb1987930"/>
+      </target>
+      <target file="stm32l1xx_gpio.o" lastModified="14ddd353a57">
+         <source file="..\..\..\..\cmsis_lib\Source\stm32l1xx_gpio.c" lastModified="14cb1575180"/>
+      </target>
+      <target file="queue.o" lastModified="14ddd4addf0">
+         <source file="..\..\..\..\queue.c" lastModified="14cf9660eac"/>
+      </target>
+      <target file="parcing.o" lastModified="14ddd4aced8">
+         <source file="..\..\..\..\parcing.c" lastModified="14ddd3e0ae9"/>
+      </target>
+      <target file="rtcInit.o" lastModified="14ddd4ac8c3">
+         <source file="..\..\..\..\rtcInit.c" lastModified="19e9f788400"/>
+      </target>
+      <target file="stm32l1xx_rtc.o" lastModified="14ddd356c73">
+         <source file="..\..\..\..\cmsis_lib\Source\stm32l1xx_rtc.c" lastModified="14cb1576120"/>
+      </target>
+      <target file="cpuLoad.o" lastModified="14ddd4acd44">
+         <source file="..\..\..\..\cpuLoad.c" lastModified="14ddc327929"/>
+      </target>
+      <target file="syscalls.o" lastModified="14ddd355e91">
+         <source file="..\..\..\..\syscalls\syscalls.c" lastModified="14cb15722a0"/>
+      </target>
+      <target file="createEditDeleteCallLogEndCall.o" lastModified="14ddd4ad5bd">
+         <source file="..\..\..\..\createEditDeleteCallLogEndCall.c" lastModified="14d9445f571"/>
+      </target>
+      <target file="compareFunction.o" lastModified="14ddd4adb31">
+         <source file="..\..\..\..\compareFunction.c" lastModified="19e9f71cd40"/>
+      </target>
+      <target file="main.o" lastModified="14ddd4ad169">
+         <source file="..\..\..\..\main.c" lastModified="14dd72fe5e6"/>
+      </target>
+   </processor>
+</history>

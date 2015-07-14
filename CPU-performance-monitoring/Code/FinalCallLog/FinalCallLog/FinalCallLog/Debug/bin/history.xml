@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=FinalCallLog.map -O0 -LC:\CooCox\CoIDE\configuration\ProgramData\FinalCallLog -TC:\CooCox\CoIDE\configuration\ProgramData\FinalCallLog/arm-gcc-link.ld -g -L..\..\..\..\genericFunction\genericFunction_Lib\Debug\bin -lgenericfunction_lib">
+      <target file="FinalCallLog.elf" lastModified="14ddd4ae843">
+         <source file="..\obj\rtcInit.o" lastModified="14ddd4ac8c3"/>
+         <source file="..\obj\stm32l1xx_gpio.o" lastModified="14ddd353a57"/>
+         <source file="..\obj\stm32l1xx_pwr.o" lastModified="14ddd353b84"/>
+         <source file="..\obj\uartInit.o" lastModified="14ddd4aca40"/>
+         <source file="..\obj\startup_stm32l1xx_md.o" lastModified="14ddd354064"/>
+         <source file="..\obj\cpuLoad.o" lastModified="14ddd4acd44"/>
+         <source file="..\obj\parcing.o" lastModified="14ddd4aced8"/>
+         <source file="..\obj\stm32l1xx_rcc.o" lastModified="14ddd354827"/>
+         <source file="..\obj\system_stm32l1xx.o" lastModified="14ddd354c2f"/>
+         <source file="..\obj\main.o" lastModified="14ddd4ad169"/>
+         <source file="..\obj\assignValues.o" lastModified="14ddd4ad2ca"/>
+         <source file="..\obj\createEditDeleteCallLogEndCall.o" lastModified="14ddd4ad5bd"/>
+         <source file="..\obj\gpio.o" lastModified="14ddd4ad6fb"/>
+         <source file="..\obj\display.o" lastModified="14ddd4ad9e0"/>
+         <source file="..\obj\stm32l1xx_syscfg.o" lastModified="14ddd355ae6"/>
+         <source file="..\obj\syscalls.o" lastModified="14ddd355e91"/>
+         <source file="..\obj\compareFunction.o" lastModified="14ddd4adb31"/>
+         <source file="..\obj\stm32l1xx_usart.o" lastModified="14ddd356423"/>
+         <source file="..\obj\queue.o" lastModified="14ddd4addf0"/>
+         <source file="..\obj\misc.o" lastModified="14ddd3569aa"/>
+         <source file="..\obj\stm32l1xx_rtc.o" lastModified="14ddd356c73"/>
+      </target>
+   </processor>
+</history>

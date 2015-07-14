@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.7.3 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=uartInterrupt.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\uartInterrupt -TC:\CooCox\CoIDE\configuration\ProgramData\uartInterrupt/arm-gcc-link.ld -g">
+      <target file="uartInterrupt.elf" lastModified="14dd665cd1d">
+         <source file="..\obj\stm32l1xx_gpio.o" lastModified="14dd665bd3f"/>
+         <source file="..\obj\startup_stm32l1xx_md.o" lastModified="14dd665bddb"/>
+         <source file="..\obj\stm32l1xx_rcc.o" lastModified="14dd665bfa4"/>
+         <source file="..\obj\system_stm32l1xx.o" lastModified="14dd665c049"/>
+         <source file="..\obj\main.o" lastModified="14dd665c21e"/>
+         <source file="..\obj\stm32l1xx_syscfg.o" lastModified="14dd665c2e4"/>
+         <source file="..\obj\stm32l1xx_dma.o" lastModified="14dd665c530"/>
+         <source file="..\obj\stm32l1xx_usart.o" lastModified="14dd665c64d"/>
+         <source file="..\obj\dmaInterrupt.o" lastModified="14dd665c890"/>
+         <source file="..\obj\misc.o" lastModified="14dd665c93c"/>
+      </target>
+   </processor>
+</history>

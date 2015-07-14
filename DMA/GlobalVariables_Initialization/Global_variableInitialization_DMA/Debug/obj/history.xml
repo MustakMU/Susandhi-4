@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.2.1-sjlj mingw32 -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32L152RB -DSTM32L1XX_MD -ID:\Chetan Akki\Complerte_DMA_Programs -ID:\Chetan Akki\Complerte_DMA_Programs\Global_variableInitialization_DMA -ID:\Chetan Akki\Complerte_DMA_Programs\Global_variableInitialization_DMA\cmsis_lib -ID:\Chetan Akki\Complerte_DMA_Programs\Global_variableInitialization_DMA\cmsis_boot -ID:\Chetan Akki\Complerte_DMA_Programs\Global_variableInitialization_DMA\cmsis -ID:\Chetan Akki\Complerte_DMA_Programs\Global_variableInitialization_DMA\cmsis_lib\Include">
+      <target file="stm32l1xx_gpio.o" lastModified="14dd69f02c0">
+         <source file="..\..\..\cmsis_lib\Source\stm32l1xx_gpio.c" lastModified="14c9c5abab0"/>
+      </target>
+      <target file="stm32l1xx_dma.o" lastModified="14dd69f09e1">
+         <source file="..\..\..\cmsis_lib\Source\stm32l1xx_dma.c" lastModified="14c9ccfe2e0"/>
+      </target>
+      <target file="system_stm32l1xx.o" lastModified="14dd69f05e7">
+         <source file="..\..\..\cmsis_boot\system_stm32l1xx.c" lastModified="14c9c5abab0"/>
+      </target>
+      <target file="startup_stm32l1xx_md.o" lastModified="14dd6fc0a48">
+         <source file="..\..\..\cmsis_boot\Startup\startup_stm32l1xx_md.c" lastModified="14dd6fbe71a"/>
+      </target>
+      <target file="misc.o" lastModified="14dd69f0af2">
+         <source file="..\..\..\cmsis_lib\Source\misc.c" lastModified="14c9c5abab0"/>
+      </target>
+      <target file="main.o" lastModified="14dd84c5fc0">
+         <source file="..\..\..\main.c" lastModified="14dd83ce0e2"/>
+      </target>
+      <target file="stm32l1xx_rcc.o" lastModified="14dd69f0538">
+         <source file="..\..\..\cmsis_lib\Source\stm32l1xx_rcc.c" lastModified="14c9c5abab0"/>
+      </target>
+      <target file="stm32l1xx_syscfg.o" lastModified="14dd69f089f">
+         <source file="..\..\..\cmsis_lib\Source\stm32l1xx_syscfg.c" lastModified="14c9c5abab0"/>
+      </target>
+   </processor>
+</history>

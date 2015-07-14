@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32L152RB -DSTM32L1XX_MD -I..\..\..\..\..\Users\Mallikarjun\Desktop\callLog\FinalCallLog\FinalCallLog -I..\..\..\..\..\Users\Mallikarjun\Desktop\callLog\FinalCallLog -I..\..\..\..\..\Users\Mallikarjun\Desktop\callLog\FinalCallLog\FinalCallLog\genericFunction">
+      <target file="syscalls.o" lastModified="19e9f6a2692">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="14cb1389650"/>
+      </target>
+      <target file="main.o" lastModified="19e9f6a25ee">
+         <source file="..\..\..\main.c" lastModified="14cb155ea20"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/ID:\FinalCallLog\cmsis_lib\Include /ID:\ /ID:\FinalCallLog\genericFunction /ID:\FinalCallLog /ID:\FinalCallLog\cmsis_lib /ID:\FinalCallLog\cmsis_boot /ID:\FinalCallLog\cmsis">
+      <source file="..\..\..\..\cmsis_lib\Source\stm32l1xx_gpio.c" lastModified="14cb1575180">
+         <include file="..\..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\Source\misc.c" lastModified="14cb15741e0">
+         <include file="..\..\..\..\cmsis_lib\Include\misc.h"/>
+      </source>
+      <source file="..\..\..\..\gpio.c" lastModified="14cb1924740">
+         <include file="..\..\..\..\gpioUartInit.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\Source\stm32l1xx_usart.c" lastModified="14cb1987930">
+         <include file="..\..\..\..\cmsis_lib\Include\stm32l1xx_usart.h"/>
+         <include file="..\..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_boot\Startup\startup_stm32l1xx_md.c" lastModified="14dd6d4745b">
+      </source>
+      <source file="..\..\..\..\cmsis_lib\Include\stm32l1xx_rtc.h" lastModified="14cb1576120">
+         <include file="..\..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h" lastModified="14cb15741e0">
+         <include file="..\..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\Include\stm32l1xx_pwr.h" lastModified="14d1d8ab627">
+         <include file="..\..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\Include\misc.h" lastModified="14cb15741e0">
+         <include file="..\..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\Include\stm32l1xx_usart.h" lastModified="14cb1987930">
+         <include file="..\..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\Source\stm32l1xx_rtc.c" lastModified="14cb1576120">
+         <include file="..\..\..\..\cmsis_lib\Include\stm32l1xx_rtc.h"/>
+         <include file="..\..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\Source\stm32l1xx_rcc.c" lastModified="14cb15741e0">
+         <include file="..\..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\Source\stm32l1xx_pwr.c" lastModified="14d1d8ab669">
+         <include file="..\..\..\..\cmsis_lib\Include\stm32l1xx_pwr.h"/>
+         <include file="..\..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\display.h" lastModified="14cb1963710">
+         <include file="..\..\..\..\structureDefine.h"/>
+      </source>
+      <source file="..\..\..\..\rtcInit.c" lastModified="19e9f788400">
+         <include file="..\..\..\..\gpioUartInit.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\Source\stm32l1xx_syscfg.c" lastModified="14cb1575180">
+         <include file="..\..\..\..\cmsis_lib\Include\stm32l1xx_syscfg.h"/>
+         <include file="..\..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\display.c" lastModified="19e9f767890">
+         <include file="..\..\..\..\display.h"/>
+         <include file="..\..\..\..\structureDefine.h"/>
+      </source>
+      <source file="..\..\..\..\main.c" lastModified="14dd72fe9ce">
+         <include file="..\..\..\..\structureDefine.h"/>
+         <include file="..\..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+         <include file="..\..\..\..\cmsis_lib\Include\stm32l1xx_rtc.h"/>
+         <include file="..\..\..\..\cmsis_lib\Include\stm32l1xx_pwr.h"/>
+         <include file="..\..\..\..\cmsis_lib\Include\stm32l1xx_usart.h"/>
+         <include file="..\..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\..\cmsis_lib\Include\misc.h"/>
+      </source>
+      <source file="..\..\..\..\gpioUartInit.h" lastModified="14d93cee39a">
+         <include file="..\..\..\..\cmsis_boot\stm32l1xx.h"/>
+         <include file="..\..\..\..\cmsis_lib\Include\stm32l1xx_rcc.h"/>
+         <include file="..\..\..\..\cmsis_lib\Include\stm32l1xx_rtc.h"/>
+         <include file="..\..\..\..\cmsis_lib\Include\stm32l1xx_pwr.h"/>
+         <include file="..\..\..\..\cmsis_lib\Include\stm32l1xx_usart.h"/>
+         <include file="..\..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h"/>
+         <include file="..\..\..\..\cmsis_lib\Include\misc.h"/>
+         <include file="..\..\..\..\structureDefine.h"/>
+      </source>
+      <source file="..\..\..\..\compareFunction.h" lastModified="19e9f2d1b50">
+      </source>
+      <source file="..\..\..\..\structureDefine.h" lastModified="14cf9538232">
+         <include file="..\..\..\..\genericFunction\generic.h"/>
+         <include file="..\..\..\..\cpuLoad.h"/>
+         <include file="..\..\..\..\compareFunction.h"/>
+         <include file="..\..\..\..\gpioUartInit.h"/>
+         <include file="..\..\..\..\display.h"/>
+      </source>
+      <source file="..\..\..\..\compareFunction.c" lastModified="19e9f71cd40">
+         <include file="..\..\..\..\structureDefine.h"/>
+         <include file="..\..\..\..\compareFunction.h"/>
+      </source>
+      <source file="..\..\..\..\cpuLoad.h" lastModified="14d51b0d8ad">
+         <include file="..\..\..\..\structureDefine.h"/>
+      </source>
+      <source file="..\..\..\..\queue.c" lastModified="14cf9660eac">
+         <include file="..\..\..\..\structureDefine.h"/>
+      </source>
+      <source file="..\..\..\..\cpuLoad.c" lastModified="14ddc327929">
+         <include file="..\..\..\..\cpuLoad.h"/>
+         <include file="..\..\..\..\structureDefine.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis\core_cmInstr.h" lastModified="14cb1573a10">
+      </source>
+      <source file="..\..\..\..\cmsis\core_cmFunc.h" lastModified="14cb1573a10">
+      </source>
+      <source file="..\..\..\..\assignValues.c" lastModified="14cb641cd60">
+         <include file="..\..\..\..\structureDefine.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis\core_cm3.h" lastModified="14dbd888dee">
+         <include file="..\..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\..\createEditDeleteCallLogEndCall.c" lastModified="14d9445f571">
+         <include file="..\..\..\..\structureDefine.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_boot\system_stm32l1xx.h" lastModified="14cb1573240">
+      </source>
+      <source file="..\..\..\..\cmsis_boot\system_stm32l1xx.c" lastModified="14cb1573240">
+         <include file="..\..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\..\syscalls\syscalls.c" lastModified="14cb1573240">
+      </source>
+      <source file="..\..\..\..\cmsis_lib\Include\stm32l1xx_syscfg.h" lastModified="14cb1575180">
+         <include file="..\..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\..\genericFunction\generic.h" lastModified="19e9f69fd40">
+      </source>
+      <source file="..\..\..\..\uartInit.c" lastModified="14d94367d34">
+         <include file="..\..\..\..\gpioUartInit.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_boot\stm32l1xx.h" lastModified="14cb1573a10">
+         <include file="..\..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\..\cmsis_boot\system_stm32l1xx.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_lib\Include\stm32l1xx_gpio.h" lastModified="14cb1575180">
+         <include file="..\..\..\..\cmsis_boot\stm32l1xx.h"/>
+      </source>
+   </includePath>
+</dependencies>
